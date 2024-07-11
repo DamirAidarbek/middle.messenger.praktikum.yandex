@@ -1,0 +1,26 @@
+.profile {
+    &__avatar {
+        text-align: center;
+    }
+
+    &__wrapper {
+        margin-top: 60px;
+    }
+
+    &__info {
+        margin-top: 50px;
+    }
+
+    &__btns {
+        margin-top: 50px;
+
+        &-item {
+            color: #FF0000;
+            border-bottom: none;
+        }
+    }
+}
+
+#test {
+    color: red;
+}

@@ -1,0 +1,19 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+
+    &__item {
+        outline: none;
+        border: none;
+        font-size: 13px;
+        line-height: 13px;
+        padding: 0 7px;
+        border-bottom: 1px solid #3369F3;
+    }
+
+    &__label {
+        font-size: 9px;
+        color: #999;
+    }
+}

@@ -1,0 +1,12 @@
+{{#> Container align='center' }}
+    <form class="auth__form-wrapper">
+        {{> Title text='Вход' class='login__title' }}
+        <div class="login__inputs">
+            {{> Input type='text' label='Логин' name='login' }}
+            {{> Input type='password' label='Пароль' name='password' }}
+        </div>
+        {{> Button text='Авторизоваться' type='submit' }}
+        {{> Button text='Нет аккаунта?' theme='secondary-btn' type='submit' class=this.test }}
+    </form>
+{{/ Container }}
+
