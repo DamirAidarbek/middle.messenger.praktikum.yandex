@@ -12,7 +12,7 @@ Object.entries(Components).forEach(([name, partial]) => {
 
 document.addEventListener('DOMContentLoaded', () => {
     const pathname = window.location.pathname
-    let content;
+    let content = ''
 
     switch (pathname) {
         case '/':
