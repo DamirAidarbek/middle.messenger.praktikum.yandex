@@ -8,3 +8,14 @@
 - `npm run dev` — запуск в режиме разработчика,
 - `npm start` — сборка и запуск,
 
+## Ссылки на страницы
+
+- Главная страница http://localhost:3000
+- Страница Авторизации http://localhost:3000/login
+- Страница Регистрации http://localhost:3000/register
+- Страница Профиля http://localhost:3000/profile
+- Страница Редактирования Профиля http://localhost:3000/edit-profile
+- Страница Редактирования Пароля http://localhost:3000/edit-password
+- Страница 404 http://localhost:3000/404
+- Страница 500 http://localhost:3000/500
+- Страница Чата http://localhost:3000/chat
