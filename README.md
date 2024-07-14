@@ -2,6 +2,8 @@
 
 ## Ссылка на макет в Figma https://www.figma.com/design/jF5fFFzgGOxQeB4CmKWTiE/Chat_external_link?node-id=0-1&t=H7BKQBcAytqAUO3A-0
 
+## Ссылка на Netlify https://funny-empanada-3891f2.netlify.app/
+
 ## Установка
 
 - `npm install` — установка зависимостей,
