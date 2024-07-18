@@ -1,0 +1,24 @@
+<div class="profile__back-arrow">
+    <img src="/icons/back-arrow.svg" alt="back-arrow">
+</div>
+{{#> Container }}
+    <div class="profile">
+        <div class="profile__wrapper">
+            {{> Avatar class='profile__avatar' }}
+
+            <div class="profile__info">
+                {{> ProfileInfo key='Почта' value='pochta@yandex.ru' type='email' name='email' }}
+                {{> ProfileInfo key='Логин' value='ivanivanov' type='text' name='login' }}
+                {{> ProfileInfo key='Имя' value='Иван' type='text' name='first_name' }}
+                {{> ProfileInfo key='Фамилия' value='Иванов' type='text' name='second_name' }}
+                {{> ProfileInfo key='Имя в чате' value='Иван' type='text' name='display_name' }}
+                {{> ProfileInfo key='Телефон' value='+7(909)9673030' type='tel' name='phone' }}
+            </div>
+
+            <div class="edit-page__btn">
+                {{> Button text='Сохранить' }}
+            </div>
+
+        </div>
+    </div>
+{{/Container}}

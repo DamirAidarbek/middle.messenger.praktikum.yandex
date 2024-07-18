@@ -1,0 +1,36 @@
+.button {
+    border: none;
+    border-radius: 8px;
+    display: block;
+    background-color: #3369F3;
+    color: #fff;
+    padding: 12px 70px;
+    font-size: 13px;
+    line-height: 13px;
+    cursor: pointer;
+
+    &.secondary-btn {
+        outline: none;
+        background: none;
+        color: #3369F3;
+        text-align: center;
+        padding: 14px 0;
+        width: 100%;
+        font-size: 11px;
+        line-height: 11px;
+    }
+
+    &.profile-btn {
+        padding: 10px 0;
+        outline: none;
+        background: none;
+        color: #3369F3;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 13px;
+
+        border-bottom: 1px solid #EAEAEA;
+    }
+}
+
+

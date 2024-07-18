@@ -1,0 +1,12 @@
+.chat-page__input {
+    border: none;
+    outline: none;
+    background-color: #EFEFEF;
+    border-radius: 5px;
+    padding: 10px;
+
+    &::placeholder {
+        background: url("../../../public/icons/magnifying-glass.svg") no-repeat;
+        text-align: center;
+    }
+}

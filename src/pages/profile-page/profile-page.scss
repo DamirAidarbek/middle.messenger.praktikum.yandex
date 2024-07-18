@@ -1,0 +1,38 @@
+.profile {
+    min-width: 400px;
+
+    &__avatar {
+        text-align: center;
+    }
+
+    &__wrapper {
+        //margin-top: 60px;
+    }
+
+    &__info {
+        margin-top: 50px;
+    }
+
+    &__btns {
+        margin-top: 50px;
+
+        &-item {
+            color: #FF0000;
+            border-bottom: none;
+        }
+    }
+    &__back-arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 64px;
+        height: 100vh;
+        padding: 0 15px;
+        border-right: 1px solid #EAEAEA;
+    }
+}
+
+#test {
+    color: red;
+}

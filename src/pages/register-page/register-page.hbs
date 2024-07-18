@@ -1,0 +1,16 @@
+{{#> Container align='center' }}
+    <form class="auth__form-wrapper">
+        <div class="register__inputs">
+            {{> Title text='Регистрация' }}
+            {{> Input type='email' label='Почта' name='email' }}
+            {{> Input type='text' label='Логин' name='login' }}
+            {{> Input type='text' label='Имя' name='first_name' }}
+            {{> Input type='text' label='Фамилия' name='second_name' }}
+            {{> Input type='tel' label='Телефон' name='phone' }}
+            {{> Input type='password' label='Пароль' name='password' }}
+            {{> Input type='password' label='Пароль (ещё раз)' name='repassword' }}
+        </div>
+        {{> Button text='Зарегистрироваться' }}
+        {{> Button text='Войти' theme='secondary-btn' }}
+    </form>
+{{/Container}}
